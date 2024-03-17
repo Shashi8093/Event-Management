@@ -1,0 +1,117 @@
+/* Add background gradient to header */
+header {
+  background: linear-gradient(to bottom, #FF5722, #F4511E);
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* Update logo styles */
+.logo {
+  font-family: 'Arial Black', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.logo span {
+  color: #FFEB3B;
+}
+
+/* Update navigation styles */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #FFEB3B;
+}
+
+/* Update hero section styles */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* Update button styles */
+.btn {
+  display: inline-block;
+  background-color: #FFEB3B;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #FFC107;
+}
+
+/* Update events section styles */
+.events {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.event {
+  background-color: #fff;
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.event:hover {
+  transform: translateY(-5px);
+}
+
+/* Update footer styles */
+footer {
+  background: linear-gradient(to bottom, #FF5722, #F4511E);
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
