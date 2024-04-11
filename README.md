@@ -13,7 +13,7 @@ Welcome to our Event Management Site repository! This project aims to provide a 
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [Backend Framework, e.g., Node.js, Django], [Database, e.g., MongoDB, PostgreSQL]
+- **Backend:** PHP, MYSQL
 
 ## Getting Started
 
@@ -22,4 +22,4 @@ To get a local copy up and running, follow these simple steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone 
+git clone https://github.com/Shashi8093/Event-Management.git
